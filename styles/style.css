@@ -89,11 +89,24 @@
             font-weight: 300;
         }
 
+        .icon {
+            border: none;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+
         .btn-shape {
             height: 40px;
             padding: 0 10px;
             border-radius: 7px;
             font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
         }
 
         .btn-orange {
@@ -104,7 +117,8 @@
         .btn-hollow {
             background-color: black;
             color: rgb(238, 237, 237);
-            border: .1px solid rgb(140, 140, 140)
+            border: .1px solid rgb(140, 140, 140);
+            
             
         }
 
@@ -126,5 +140,6 @@
             object-position: top;
             border-radius: 50%;
             border: 3px solid rgb(239, 101, 91);
+            box-shadow: rgba(107, 224, 18, 0.25) 0px 54px 55px, rgba(107, 224, 18, 0.12) 0px -12px 30px, rgba(107, 224, 18, 0.12) 0px 4px 6px, rgba(107, 224, 18, 0.17) 0px 12px 13px, rgba(107, 224, 18, 0.09) 0px -3px 5px;
         }
         
